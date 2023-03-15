@@ -33,11 +33,11 @@ difference between a class and an object is that a class is a template for creat
 
 `بالبلدى`
 
-Class :
+Class :<br>
 هوه ذي استماره فيها خصائص معينه ممكن تكون ذي الطول الوزن النوع السن ... ألخ
 
-object
-هوه كل شخص هيشتري الاستماره دي و يملها بخصائصه الخاصه
+object :<br>
+هوه كل شخص هيشتري الأستماره دي و يملاها بخصائصه الخاصه
 <br><br>
 
 #  Write a code that takes an array and returns the second largest element of it
