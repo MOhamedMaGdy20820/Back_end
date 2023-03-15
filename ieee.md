@@ -29,7 +29,7 @@ a class is a blueprint or template for creating objects. It defines a set of att
 
 In simpler terms, a class is like a blueprint or a plan for creating objects, while an object is the actual implementation or instance of that plan.
 
-An object of this class would be a particular car, such as a 2022 difference between a class and an object is that a class is a template for creating objects, while an object is an instance of a class with its own values for the attributes defined in the class.
+difference between a class and an object is that a class is a template for creating objects, while an object is an instance of a class with its own values for the attributes defined in the class.
 
 `بالبلدى`
 
