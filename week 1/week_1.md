@@ -1,71 +1,70 @@
 # `definitions`
 
-    1. URL:
-    URL stands for Uniform Resource Locator. It is a string of characters that provides a unique address for a web page or resource on the internet. URLs typically start with "http://" or "https://" and are followed by a domain name or IP address, a path, and sometimes parameters or queries. They allow users to access specific web pages and resources by typing or clicking on the URL.
+1. URL:<br>
+URL stands for Uniform Resource Locator. It is a string of characters that provides a unique address for a web page or resource on the internet. URLs typically start with "http://" or "https://" and are followed by a domain name or IP address, a path, and sometimes parameters or queries. They allow users to access specific web pages and resources by typing or clicking on the URL.
 
-    2. Domain Name:
-    A domain name is a unique name or identifier used to identify a website or a network domain on the internet. It's a user-friendly way of representing the IP address of a web server or network.
-    Domain names are used by web browsers and other applications to locate and access websites on the internet
+2. Domain Name:<br>
+A domain name is a unique name or identifier used to identify a website or a network domain on the internet. It's a user-friendly way of representing the IP address of a web server or network.
+Domain names are used by web browsers and other applications to locate and access websites on the internet
 
-    3. IP Address:
-    URL stands for Uniform Resource Locator. It is a string of characters that provides a unique address for a web page or resource on the internet. URLs typically start with "http://" or "https://" and are followed by a domain name or IP address, a path, and sometimes parameters or queries. They allow users to access specific web pages and resources by typing or clicking on the URL.
+3. IP Address:<br>
+URL stands for Uniform Resource Locator. It is a string of characters that provides a unique address for a web page or resource on the internet. URLs typically start with "http://" or "https://" and are followed by a domain name or IP address, a path, and sometimes parameters or queries. They allow users to access specific web pages and resources by typing or clicking on the URL.
 
-    4. Mac address:
-    a 12-digit hexadecimal number assigned to each device connected to the network. Primarily specified as a unique identifier during device manufacturing, the MAC address is often found on a device's network interface card
+4. Mac address:<br>
+a 12-digit hexadecimal number assigned to each device connected to the network. Primarily specified as a unique identifier during device manufacturing, the MAC address is often found on a device's network interface card
 
-    5. DNS:
-    A Domain Name System (DNS) turns domain names into IP addresses, which allow browsers to get to websites and other internet resources. Every device on the internet has an IP address, which other devices can use to locate the device.
+5. DNS:
+A Domain Name System (DNS) turns domain names into IP addresses, which allow browsers to get to websites and other internet resources. Every device on the internet has an IP address, which other devices can use to locate the device.
 
-    6. Data Center:
-    A data center is a large facility or building that is designed to house computer systems and associated components, such as telecommunications and storage systems. Data centers are used to store, manage, process, and distribute large amounts of data, and they play a critical role in the operation of many modern businesses and organizations.
-    Data centers typically have a large number of servers, storage devices, network switches, routers, and other hardware equipment that are used to process and store data. They are designed to provide a secure and controlled environment for these components, with features such as backup power supplies, cooling systems, and fire suppression systems to ensure reliable operation.
+6. Data Center:<br>
+A data center is a large facility or building that is designed to house computer systems and associated components, such as telecommunications and storage systems. Data centers are used to store, manage, process, and distribute large amounts of data, and they play a critical role in the operation of many modern businesses and organizations.
+Data centers typically have a large number of servers, storage devices, network switches, routers, and other hardware equipment that are used to process and store data. They are designed to provide a secure and controlled environment for these components, with features such as backup power supplies, cooling systems, and fire suppression systems to ensure reliable operation.
 
-    7. client:
-    any computer hardware or software device that requests access to a service provided by a server
+7. client:<br>
+any computer hardware or software device that requests access to a service provided by a server
 
-    8. server:
-    A server is a computer system or a program that provides data, services, or resources to other computers or devices, known as clients, over a network. In other words, a server is a device or a software application that serves other devices or applications on a network.
-    بالهجايس : الخدامه اللي امك جيبهالك
+8. server:<br>
+A server is a computer system or a program that provides data, services, or resources to other computers or devices, known as clients, over a network. In other words, a server is a device or a software application that serves other devices or applications on a network.
+بالهجايس : الخدامه اللي امك جيبهالك
 
-    9. request and respons:
-    request: a request is a message sent by a client, typically a web browser, to a server requesting some information or resource. For example, when a user types a URL into a web browser's address bar, the browser sends a request to the server hosting that URL, asking for the corresponding webpage to be sent back.
+9. request and respons:<br>
+request: a request is a message sent by a client, typically a web browser, to a server requesting some information or resource. For example, when a user types a URL into a web browser's address bar, the browser sends a request to the server hosting that URL, asking for the corresponding webpage to be sent back.
+response: Once the server receives the request, it generates a response, which is the data or resource that the client requested. The response typically includes the requested webpage, along with any other resources needed to display it correctly, such as images, scripts, or stylesheets. The response is then sent back to the client, where it is displayed in the web browser or processed by another application.
 
-    response: Once the server receives the request, it generates a response, which is the data or resource that the client requested. The response typically includes the requested webpage, along with any other resources needed to display it correctly, such as images, scripts, or stylesheets. The response is then sent back to the client, where it is displayed in the web browser or processed by another application.
+10. Internet:<br>
+The internet is a global network of computers and other electronic devices connected together, allowing people from all over the world to communicate and exchange information. It is a decentralized network, which means that there is no central authority controlling it. The internet allows users to access a vast amount of information and services, such as email, social media, online shopping, video conferencing, and more.
 
-    10. Internet:
-    The internet is a global network of computers and other electronic devices connected together, allowing people from all over the world to communicate and exchange information. It is a decentralized network, which means that there is no central authority controlling it. The internet allows users to access a vast amount of information and services, such as email, social media, online shopping, video conferencing, and more.
+11. web:<br>
+The web, short for World Wide Web, is a collection of interconnected web pages and other digital content that can be accessed via the internet.
 
-    11. web:
-    The web, short for World Wide Web, is a collection of interconnected web pages and other digital content that can be accessed via the internet.
+12. HTTP:<br>
+HTTP stands for Hypertext Transfer Protocol. It is a protocol, or set of rules, that defines how data is transmitted over the World Wide Web. HTTP is the foundation of communication between web browsers and web servers.
+بالهجايس : دي الفرملا الي لازم شكل الطلب و الرد يكون عليها ذي طريقه كتابه البرقيه في التعبير ليها شكل معين لازم تتكتب بيه ال HTTP نفس الفكره , او ممكن نقول ان دي اللغه الرسميه بين ال server و المتصفح اللي بيفهموا بعض بيها 
 
-    12. HTTP:
-    HTTP stands for Hypertext Transfer Protocol. It is a protocol, or set of rules, that defines how data is transmitted over the World Wide Web. HTTP is the foundation of communication between web browsers and web servers.
-    بالهجايس : دي الفرملا الي لازم شكل الطلب و الرد يكون عليها ذي طريقه كتابه البرقيه في التعبير ليها شكل معين لازم تتكتب بيه ال HTTP نفس الفكره , او ممكن نقول ان دي اللغه الرسميه بين ال server و المتصفح اللي بيفهموا بعض بيها 
+13. TCP:<br>
+TCP stands for Transmission Control Protocol, which is a standard communication protocol used by devices to communicate with each other over the internet. TCP is one of the core protocols in the Internet Protocol (IP) suite, which is the set of protocols used to transmit data over the internet.
+TCP provides reliable, ordered, and error-checked delivery of data between applications running on different devices. It does this by breaking the data down into packets and sending them over the internet in a way that ensures they are delivered in the correct order and without errors. TCP also includes mechanisms for flow control, congestion control, and error recovery to ensure that data is transmitted efficiently and reliably.
+بالهجايس : ده مندوب التوصيل اللي بيتاكد من وصل المعلومات بشكل كامل و سليم
 
-    13. TCP:
-    TCP stands for Transmission Control Protocol, which is a standard communication protocol used by devices to communicate with each other over the internet. TCP is one of the core protocols in the Internet Protocol (IP) suite, which is the set of protocols used to transmit data over the internet.
-    TCP provides reliable, ordered, and error-checked delivery of data between applications running on different devices. It does this by breaking the data down into packets and sending them over the internet in a way that ensures they are delivered in the correct order and without errors. TCP also includes mechanisms for flow control, congestion control, and error recovery to ensure that data is transmitted efficiently and reliably.
-    بالهجايس : ده مندوب التوصيل اللي بيتاكد من وصل المعلومات بشكل كامل و سليم
+14. HTML, CSS, and JavaScript:<br>
+    1. HTML: HTML stands for Hypertext Markup Language. It is used to structure and define the content of web pages. HTML provides a set of tags that define        
+    headings, paragraphs, links, images, forms, and other types of content. HTML determines the basic structure and layout of a web page.
 
-    14. HTML, CSS, and JavaScript:
-        1. HTML: HTML stands for Hypertext Markup Language. It is used to structure and define the content of web pages. HTML provides a set of tags that define        
-        headings, paragraphs, links, images, forms, and other types of content. HTML determines the basic structure and layout of a web page.
+    2. CSS: CSS stands for Cascading Style Sheets. It is used to define the visual style and layout of web pages. CSS allows developers to specify the colors,fonts, spacing, 
+    and other visual aspects of web pages, independent of the content itself. CSS can be used to create complex page layouts and responsive designs  that adapt to different 
+    screen sizes.
 
-        2. CSS: CSS stands for Cascading Style Sheets. It is used to define the visual style and layout of web pages. CSS allows developers to specify the colors,fonts, spacing, 
-        and other visual aspects of web pages, independent of the content itself. CSS can be used to create complex page layouts and responsive designs  that adapt to different 
-        screen sizes.
+    3. JavaScript: JavaScript is a programming language used to create dynamic and interactive web pages. It is used to add interactivity, behavior, and             
+    functionality to web pages. JavaScript can be used to create animations, validate forms, update page content without reloading, and interact with APIs and       other 
+    web services.
 
-        3. JavaScript: JavaScript is a programming language used to create dynamic and interactive web pages. It is used to add interactivity, behavior, and             
-        functionality to web pages. JavaScript can be used to create animations, validate forms, update page content without reloading, and interact with APIs and       other 
-        web services.
+    In summary, HTML defines the content and structure of a web page, CSS defines the visual style and layout, and JavaScript adds interactivity and functionality. 
+    All three technologies work together to create modern web applications.
 
-        In summary, HTML defines the content and structure of a web page, CSS defines the visual style and layout, and JavaScript adds interactivity and functionality. 
-        All three technologies work together to create modern web applications.
+15. host headers<br>
+it allows web servers to host multiple domains on a single IP address. When a client sends a request with a specific Host header, the server uses that header to  determine which website to serve the request for.
+Without the Host header, the server wouldn't know which website to serve the request for, and the client would not be able to access the desired website.
 
-    15. host headers
-    it allows web servers to host multiple domains on a single IP address. When a client sends a request with a specific Host header, the server uses that header to  determine which website to serve the request for.
-    Without the Host header, the server wouldn't know which website to serve the request for, and the client would not be able to access the desired website.
-    
 # `different between web and internet`
 
 The web and the internet are related but distinct concepts:
