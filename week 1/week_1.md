@@ -115,6 +115,68 @@ The World Wide Web, or simply "the web," is a vast network of interconnected doc
 `بالهجايس` : <br>
 1 - بعد م ادخل عنوان ال url للمتصفح بيقوم بتحليله و يطلع منه ال domain name و يبعته لل DNS عشان يحوله ل IP Address الخاص بالسرفر اللي عله الداتا المطلوبه<br>
 2 - بيقوم المتصفح بارسال طلب http للسرفر اللي معايا ال IP Address بتاعه و الطلب ده بيبقي فيه تفاصيل كتير هنشرحها تحت ما علينا ... و
-بعد كده السرفر بيرد ب http response بيكون فيه الملفات المطلوبه او الداتا المطلوبه لعرض الصفحه المطلويه html ,css and JavaScript
-3 - بعد م ال tcp يوصل الرد للمتصفح بيحلها برده عشان يغرف طريقه عرضها بيفهم الداتا دي ايه <br>
+بعد كده السرفر بيرد ب http response بيكون فيه الملفات المطلوبه او الداتا المطلوبه لعرض الصفحه html ,css and JavaScript<br>
+3 - بعد م ال tcp يوصل الرد للمتصفح بيحللها برده عشان يعرف طريقه عرضها بيفهم الداتا دي ايه <br>
 4 - بيقوم ال brawser ببناء موقع الويب باستخدام ملفات ال html ,css and JavaScript<br>
+
+# `HTTP Request`
+
+د حوار كبير معلش انا مش هكتب كل ده اضغط 
+[ هنا كده ](https://www.tutorialspoint.com/http/http_requests.htm) عيش
+
+
+
+
+# `methods of http`
+1. GET: This method is used to retrieve data from the server. The request sent by the client contains a URL and some optional parameters. The server responds with the requested data, usually in the form of an HTML page or a JSON object.<br>
+2. POST: This method is used to submit data to the server. The request sent by the client contains the data to be submitted, usually in the form of a form or a JSON object. The server responds with a confirmation message or some other response data.<br>
+3. PUT: This method is used to update an existing resource on the server. The request sent by the client contains the new data to be stored on the server. The server replaces the existing data with the new data.<br>
+4. DELETE: This method is used to delete an existing resource on the server. The request sent by the client contains the URL of the resource to be deleted. The server removes the resource from its storage<br>
+
+# `host in http request`
+
+In an HTTP (Hypertext Transfer Protocol) request, the "Host" header is used to specify the domain name or IP address of the web server that the client wants to communicate with.
+
+When a client sends an HTTP request to a server, it includes a Host header to indicate which server it wants to connect to. The Host header is mandatory in HTTP/1.1, which is the most commonly used version of the protocol today.
+
+For example, suppose a client wants to request a webpage from the example.com domain. The HTTP request would include a Host header that specifies the domain name, like this:
+
+```
+GET /index.html HTTP/1.1
+Host: example.com
+```
+
+In this example, the Host header specifies that the client is requesting the index.html file from the example.com domain.
+
+The Host header is important because it allows web servers to host multiple domains on a single IP address. When a client sends a request with a specific Host header, the server uses that header to determine which website to serve the request for.
+
+Without the Host header, the server wouldn't know which website to serve the request for, and the client would not be able to access the desired website.
+
+
+# `HTTP responses`
+
+[ تعالا افهمك ](https://www.ibm.com/docs/en/cics-ts/5.2?topic=protocol-http-responses)
+
+# `http status codes`
+[ تعالا ](https://www.linkedin.com/posts/mohamed-magdy-46863324b_activity-7059985748917141504-mQ4S?utm_source=share&utm_medium=member_android)
+
+
+
+# `different between http/1.1 and http2`
+
+HTTP/1.1 and HTTP/2 are two different versions of the Hypertext Transfer Protocol (HTTP) that are used to transmit data over the internet. The main differences between the two versions are:
+
+1. Multiplexing: In HTTP/1.1, each request and response between the client and server had to be sent over a separate connection. In HTTP/2, multiple requests and responses can be sent over a single connection using a technique called "multiplexing." This reduces the number of connections needed between the client and server, and can improve performance.
+
+2. Binary format: HTTP/1.1 uses a text-based format for transmitting data, which can be inefficient and require extra processing time for parsing. HTTP/2 uses a binary format, which is more compact and faster to process.
+
+3. Server push: In HTTP/1.1, the server could only respond to client requests. In HTTP/2, the server can proactively push data to the client without the client having to explicitly request it. This can improve performance by reducing the number of round trips needed to load a page.
+
+4. Header compression: In HTTP/1.1, headers were sent in plain text with each request and response. In HTTP/2, headers are compressed, reducing the amount of data that needs to be transmitted and improving performance.
+
+5. Prioritization: In HTTP/2, the client can specify the order in which requests should be processed by the server, allowing more important requests to be processed first and improving overall performance.
+
+Overall, HTTP/2 is designed to improve the performance of web applications by reducing latency, improving efficiency, and enabling new features like server push. However, it requires both the client and server to support the new protocol, and some older clients or servers may not be compatible with HTTP/2.
+
+
+
