@@ -24,11 +24,11 @@ Data centers typically have a large number of servers, storage devices, network 
 any computer hardware or software device that requests access to a service provided by a server
 
 8. server:<br>
-A server is a computer system or a program that provides data, services, or resources to other computers or devices, known as clients, over a network. In other words, a server is a device or a software application that serves other devices or applications on a network.
-بالهجايس : الخدامه اللي امك جيبهالك
+A server is a computer system or a program that provides data, services, or resources to other computers or devices, known as clients, over a network. In other words, a server is a device or a software application that serves other devices or applications on a network.<br>
+`بالهجايس` : الخدامه اللي امك جيبهالك
 
 9. request and respons:<br>
-request: a request is a message sent by a client, typically a web browser, to a server requesting some information or resource. For example, when a user types a URL into a web browser's address bar, the browser sends a request to the server hosting that URL, asking for the corresponding webpage to be sent back.
+request: a request is a message sent by a client, typically a web browser, to a server requesting some information or resource. For example, when a user types a URL into a web browser's address bar, the browser sends a request to the server hosting that URL, asking for the corresponding webpage to be sent back.<br>
 response: Once the server receives the request, it generates a response, which is the data or resource that the client requested. The response typically includes the requested webpage, along with any other resources needed to display it correctly, such as images, scripts, or stylesheets. The response is then sent back to the client, where it is displayed in the web browser or processed by another application.
 
 10. Internet:<br>
@@ -38,13 +38,15 @@ The internet is a global network of computers and other electronic devices conne
 The web, short for World Wide Web, is a collection of interconnected web pages and other digital content that can be accessed via the internet.
 
 12. HTTP:<br>
-HTTP stands for Hypertext Transfer Protocol. It is a protocol, or set of rules, that defines how data is transmitted over the World Wide Web. HTTP is the foundation of communication between web browsers and web servers.
-بالهجايس : دي الفرملا الي لازم شكل الطلب و الرد يكون عليها ذي طريقه كتابه البرقيه في التعبير ليها شكل معين لازم تتكتب بيه ال HTTP نفس الفكره , او ممكن نقول ان دي اللغه الرسميه بين ال server و المتصفح اللي بيفهموا بعض بيها 
+HTTP stands for Hypertext Transfer Protocol. It is a protocol, or set of rules, that defines how data is transmitted over the World Wide Web. HTTP is the foundation of communication between web browsers and web servers.<br>
+`بالهجايس` : دي الفرملا الي لازم شكل الطلب و الرد يكون عليها ذي طريقه كتابه البرقيه في التعبير ليها شكل معين لازم تتكتب بيه
+او ممكن نقول ان دي اللغه الرسميه بين السرفر و و المتصفح اللي بيفهموا بعض بيها
+
 
 13. TCP:<br>
 TCP stands for Transmission Control Protocol, which is a standard communication protocol used by devices to communicate with each other over the internet. TCP is one of the core protocols in the Internet Protocol (IP) suite, which is the set of protocols used to transmit data over the internet.
-TCP provides reliable, ordered, and error-checked delivery of data between applications running on different devices. It does this by breaking the data down into packets and sending them over the internet in a way that ensures they are delivered in the correct order and without errors. TCP also includes mechanisms for flow control, congestion control, and error recovery to ensure that data is transmitted efficiently and reliably.
-بالهجايس : ده مندوب التوصيل اللي بيتاكد من وصل المعلومات بشكل كامل و سليم
+TCP provides reliable, ordered, and error-checked delivery of data between applications running on different devices. It does this by breaking the data down into packets and sending them over the internet in a way that ensures they are delivered in the correct order and without errors. TCP also includes mechanisms for flow control, congestion control, and error recovery to ensure that data is transmitted efficiently and reliably.<br>
+`بالهجايس` : ده مندوب التوصيل اللي بيتاكد من وصل المعلومات بشكل كامل و سليم
 
 14. HTML, CSS, and JavaScript:<br>
     1. HTML: HTML stands for Hypertext Markup Language. It is used to structure and define the content of web pages. HTML provides a set of tags that define        
@@ -55,7 +57,7 @@ TCP provides reliable, ordered, and error-checked delivery of data between appli
     screen sizes.
 
     3. JavaScript: JavaScript is a programming language used to create dynamic and interactive web pages. It is used to add interactivity, behavior, and             
-    functionality to web pages. JavaScript can be used to create animations, validate forms, update page content without reloading, and interact with APIs and       other 
+    functionality to web pages. JavaScript can be used to create animations, validate forms, update page content without reloading, and interact with APIs and other 
     web services.
 
     In summary, HTML defines the content and structure of a web page, CSS defines the visual style and layout, and JavaScript adds interactivity and functionality. 
