@@ -3,3 +3,6 @@ https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk
 https://www.youtube.com/watch?v=X1ulCwyhCVM&list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe
 
 https://www.w3schools.com/html/html_intro.asp
+
+
+https://www.w3schools.com/tags/ref_standardattributes.asp
