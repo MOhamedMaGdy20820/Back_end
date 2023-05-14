@@ -1,0 +1,162 @@
+/* 
+في تلت انواع من ال css
+1 External Style ذي اللي انا فيه دلوقتي 
+2 Internal Style بيبقي موجود داخل خد ال html
+3 in line style   بيتكتب ك اتربيوت 
+*/
+
+/* class */
+.my-p {
+    color: red;
+    font-size: 40px;
+}
+
+/* id */
+#my-p2 {
+    color: teal;
+    font-size: 40px;
+}
+
+/*
+  Target All Paragraphs
+*/
+p {
+    /* color: green; */
+    font-size: 40px;
+}
+
+/* #20bb80 HEX code 1->9 ,a->f 
+
+  background-attachment: الصوره ثابته في اول الصفحه ولا بتتحرك معايا وانا بسكرل
+
+   background-position: (n >) (n ^ ); 
+   top left right or  npx mpx  or n% m%
+  
+   background-size: (n >) (n ^);
+ top left right or npx mpx or n% m%
+
+*/
+
+/* background */
+#p1 {
+    color: whitesmoke;
+    background-color: red;
+    background-color: rgba(100, 100, 100, 90%);
+    background-color: #20bb80;
+    background-image: url(../../html/download.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 50px 120px; */
+
+    /* background-attachment: fixed;*/
+
+
+
+    background-size: cover;
+
+}
+
+
+/* padding هوامش داخليه بتتحكم في الابعاد الداخليه*/
+#p2 {
+    background-color: #DDD;
+
+    /* Top Right Bottom Left */
+    /* 10px 10px 10px 10px */
+    /* padding: 10px; */
+
+    /*   Top Right Bottom Left */
+    /*   10px 20px 10px 20px */
+    /* = padding: 10px 20px; */
+
+    /*   Top Right Bottom Left */
+    /*   10px 20px 15px 20px */
+    /* = padding: 10px 20px 15px; */
+
+    padding-top: 100px;
+    padding-left: 10%;
+
+}
+
+
+/* margin هوامش داخليه بتتحكم في الابعاد الخارجيه
+
+بستخدامه بقدر اتحكم في مكان الديف في الصفحه
+بيقبل قيم سالبه 
+
+ margin: auto;  بيوسطن الدنيا
+
+*/
+#p3 {
+
+    background-color: #DDD;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+
+}
+
+
+/*border الحولف  */
+#p4 {
+    background-color: #DDD;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    border: 10px solid red;
+}
+
+#p5 {
+    background-color: #DDD;
+    width: 300px;
+    padding: 10px;
+    outline: 10px solid red;
+    border: 10px solid blue;
+}
+
+
+/*
+
+  Block
+
+  - Take Full Width If No Width
+  - Add Line Break
+  - Respect Padding, Margin, Width, Height
+
+  Inline
+
+  - Do Not Repsepct Width, Height
+  - Respect Padding And Margin [ Just Wight + Left ]
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+
+  Inline-Block
+
+  - Allow Elements Before And After It in The Same Line
+  - Respect Padding, Margin, Width, Height
+
+*/
+
+span {
+    background-color: #EEE;
+    display: inline-block;
+}
+
+/* Element Visibility And Use Case
+
+none  يخفي العنصر
+hidden بيخفي العنصر بس بيحجز مكانه
+
+*/
+
+div {
+    background-color: red;
+    margin: 10px 0;
+}
+
+.first {
+    background-color: rebeccapurple;
+    visibility: hidden;
+}
