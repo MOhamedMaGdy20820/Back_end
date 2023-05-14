@@ -1,0 +1,37 @@
+.div1 {
+    background-color: #DDD;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px 60px;
+    margin: 40px;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    outline: black solid 10px;
+}
+
+.div2 {
+
+    background-color: #DDD;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px 60px;
+    margin: 40px;
+    border-width: 10px;
+    border-color: blue green;
+    border-style: solid;
+    outline: black solid 10px;
+
+}
+
+.div3 {
+    background-color: #DDD;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px 60px;
+    margin: 40px;
+    border-width: 10px;
+    border-color: red green blue yellow;
+    border-style: dashed;
+    outline: black solid 10px;
+}
