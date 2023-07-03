@@ -1,6 +1,6 @@
 .div1 {
     background-color: #DDD;
-    display: inline-block;
+    display: inline-table;
     font-size: 40px;
     padding: 10px 60px;
     margin: 40px;
